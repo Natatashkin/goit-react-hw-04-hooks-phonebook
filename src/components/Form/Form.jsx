@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import * as yup from 'yup';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
+import { Formik, Form, ErrorMessage } from 'formik';
 import { FormField, Input, Label, ErrorMessageStyle } from './Form.styled';
 import Button from '../Button';
 
